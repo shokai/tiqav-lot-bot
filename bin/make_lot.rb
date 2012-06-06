@@ -38,7 +38,7 @@ Dir.mktmpdir do |dir|
 end
 
 if File.exists? out
-  puts "success!! => #{out}"
+  puts "make lot => #{out}"
 else
   puts "failed."
 end
