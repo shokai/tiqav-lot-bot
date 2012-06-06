@@ -35,6 +35,7 @@ class Tiqav
       open(fname,'w+') do |f|
         f.write res.body
       end
+      fname
     end
 
     def exists?
