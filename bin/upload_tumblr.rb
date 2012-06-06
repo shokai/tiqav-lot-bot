@@ -14,7 +14,7 @@ file = ARGV.first
 
 puts "#{file} uploading.."
 res = Tumblr.new(Conf['tumblr']['mail'], Conf['tumblr']['pass']).
-  write_photo(file, Conf['description'])
+  write_photo(file, Conf['tumblr']['description'])
 
 if res.to_i > 0
   puts "success!! => #{res}"
