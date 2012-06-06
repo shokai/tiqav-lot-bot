@@ -21,5 +21,4 @@ edit config.yml.
 Make Lot and Upload
 -------------------
 
-    % ruby bin/make_lot.rb image.jpg
-    % ruby bin/upload_tumblr.rb image.jpg
+    % ./tiqav-lot.sh
