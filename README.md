@@ -1,6 +1,7 @@
 Tiqav-Lot bot
 =============
 
+* https://github.com/myatsumoto/tiqav-lots
 
 Install Dependencies
 --------------------
