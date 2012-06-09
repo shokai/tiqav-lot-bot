@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'bundler/setup'
+require 'tiqav'
 require 'tmpdir'
 require 'mini_magick'
 require File.expand_path 'bootstrap', File.dirname(__FILE__)+'/../'
-require 'tiqav'
 
 WIDTH = 500
 
